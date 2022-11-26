@@ -1,0 +1,384 @@
+
+body{
+background-image: url(/img/snake-plant-in-gray-plant-pot-on-wooden-cabinet\ 1.svg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+*{
+   padding: 0; 
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background: #FFFF;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    position: fixed; /* Make it stick/fixed */
+    
+}
+.logo{
+    margin-top: 25px;
+    margin-left: 40px;
+    height: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+
+ .menu-btn{
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+#click{
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+}
+
+nav ul li button{
+    height: 35px;
+    width: 120px;
+    border: 0cm;
+    border-radius: 6px;
+    margin-top: 35px;
+    
+}
+nav ul li img{
+    width: 23px;
+    height: 23px;
+    margin-top: 35px;
+}
+nav ul li img:hover{
+    transform: translateY(-2px);
+    transition: 0.45;
+}
+
+nav ul li p{
+    display: none;
+}
+
+
+#empleados_button{
+    background-color: white;
+   
+    
+}
+
+#registrarse_button{
+   background-color: #007074;
+   color: white;
+}
+
+nav ul li button:hover{
+    background-color: white;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, .2);
+    transform: translateY(-2px);
+    transition: 0.45;
+}
+
+section div h1{
+    font-family: 'Belleza', sans-serif;
+    float: right;
+    font-size: 96px;
+    padding-top: 170px;
+    padding-right: 250px;
+    font-weight: 400;
+}
+
+section div h3{
+    font-family: 'Lora', serif;
+    float: right;
+    font-size: 25px; 
+    padding-top: 30px;
+    padding-right: 140px;
+    font-weight: 300px;  
+}
+
+section div h4{
+    font-family: 'Lora', serif;
+    float: right;
+    font-size: 20px; 
+    padding-top: 30px;
+    padding-right: 140px;
+    font-weight: 300px;  
+}
+
+.wrapper{
+    width: auto;
+    min-height: 100px;
+    display: flex;
+    float: right;
+    padding-right: 100px;
+  }
+  .carousel{
+    max-width: 760px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  .carousel .card{
+    margin: 60px 0;
+   
+  }
+  .owl-dots{
+    text-align: right;
+    margin-top: 10px;
+  }
+  .owl-dot{
+    height: 10px;
+    width: 30px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #0072bc!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #19405a!important;
+  }
+
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) { 
+
+section div h1 {
+font-size: 140px;
+padding-top: 170px;
+padding-right: 150px;
+}
+    section div h3{
+        padding-left: 750px;
+        font-size: 40px; 
+        padding-top: 40px;
+        
+    }
+
+    
+    section div h4{
+        padding-left: 1200px;
+        font-size: 30px;
+    }
+
+    .wrapper{
+        width: auto;
+        min-height: 100px;
+        display: flex;
+        float: right;
+        padding-right: 50px;
+      }
+
+      .carousel .card{
+        margin: 60px 0;
+       
+      }
+
+  }
+
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) { 
+
+    nav{
+        padding: 0px 50px;
+    }
+    nav .menu-btn{
+        padding-top: 30px;
+        display: inline;
+        color: black;
+    }
+
+    nav .logo p{
+        font-size: 80px;
+    } 
+
+
+    section div h1 {
+        font-size: 120px;
+        }
+
+    section div h3{
+        padding-left: 800px;
+        font-size: 30px; 
+        padding-top: 40px;
+        
+    }
+
+    section div h4{
+        padding-left: 1150px;
+        font-size: 25px;
+    }
+
+    .wrapper{
+        padding-right: 30px;
+      }
+
+    .carousel .card{
+        margin: 80px 0;
+       
+      }
+
+
+    
+}
+
+
+
+@media screen and (max-width: 940px) {
+
+    
+    nav{
+        padding: 0px 50px;
+    }
+    nav .menu-btn{
+        padding-top: 30px;
+        display: inline;
+        color: black;
+    }
+
+    nav .logo p{
+        font-size: 80px;
+    }
+
+
+
+    nav ul{
+        position: fixed;
+        top: 75px;
+        left:-100%;
+        background:#E5C5AD;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+        transition: all 0.3s eas
+        
+    }
+  
+    nav ul li{
+        margin: 60px 0;
+        display: block;
+        text-align: center;
+        display: block;
+        line-height: 20px;
+        font-size: 80px;
+        
+    }
+
+    #click:checked ~ ul{
+        left: 0;
+    }
+
+    #click:checked ~ .wrapper{
+        display: none;
+    }
+    #click:checked ~ .carousel .card{
+        display: none;
+    }
+
+    #click:checked ~ .owl-dot{
+        display: none;
+    }
+    #click:checked ~ .owl-dots{
+        display: none;
+    }
+    
+    nav ul li a{
+        font-size: 40px;
+        display: block;
+        text-align: center;
+        
+    }
+
+    nav ul li a:hover, nav ul li a.active {
+        display: block;
+        text-align: center;
+        font-size: 40px;
+    }
+    nav ul li button{
+        color: #007074;
+        background: none;
+        height: 60px;
+        width: 200px;
+    }
+
+    nav ul li img{
+        height: 25px;
+        width: 30px;
+        display: flexbox;
+        
+    }
+
+    nav ul li p:hover{
+        transform: translateY(-3px);
+        transition: 0.45;
+    }
+
+    nav ul li p {
+        display: inline-block;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+
+section div h1 {
+    font-size: 120px;
+    float: left;
+    padding-left: 40px;
+   
+    }
+
+section div h3{
+    font-size: 55px; 
+    float: left;
+    padding-left: 40px;
+    
+    
+    
+}
+
+section div h4{
+    font-size: 45px; 
+    float: left;
+    padding-left: 40px;
+    padding-top: 110px;    
+    font-weight: 570px;
+}
+
+.carousel .card{
+    padding-top: 170px;
+    align-items: center;
+}
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    nav .menu-btn{
+        display: inline;
+        color: black;
+        
+    }
+ }
+
+
+

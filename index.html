@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Plantando emociones</title>
+</head>
+<body>
+     <header>
+
+          <nav>
+
+             <img src="img/Planty's Logo.svg" class="logo">
+            </label>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+               <i class="fas fa-bars"></i>
+            </label>
+               <ul>
+                    <li><a href="/registros/ingreso-empleados.html" class="active"><button id="empleados_button">Empleados</button></a></li>
+                    <li><a href="./productos/productos.html"><button id="registrarse_button">Registrarse</button></a></li>
+                    <li><a href=""><img src="/img/lupa.svg" alt="" id="lupa_icon"><p>Busqueda</p></a></li>
+                    <li><a href=""><img src="/img/usuario.png" alt="" id="user_icon"><p>Perfil</p></a></li>
+                    <li><a href=""><img src="/img/carrito.svg" alt="" id="carro_compra_icon"><p>Carrito</p></a></li>
+                </ul>
+            </nav>
+    </header>
+    <section class="bienvenida">
+        <div>
+            <h1>Bienvenido</h1>
+            <h3>"Podrán cortar todas las flores, <br>
+                 pero no podrán detener la primavera." <br></h3>
+               <h4><i>- Pablo Neruda</i> </h4>
+            </div>
+
+            <div class="wrapper">
+                <div class="carousel owl-carousel">
+                   <div class="card card-1">
+                     <img src="/img/planta 1.svg" alt="">
+                   </div>
+                   <div class="card card-2">
+                      <img src="/img/planta 2.svg" alt="">
+                   </div>
+                   <div class="card card-3">
+                      <img src="/img/planta3.svg" alt="">
+                   </div>
+
+                </div>
+             </div>
+             <script>
+                $(".carousel").owlCarousel({
+                       margin: 20,
+                       loop: true,
+                       autoplay: true,
+                       autoplayTimeout: 2000,
+                       autoplayHoverPause: true,
+                       responsive: {
+                         0:{
+                           items:1,
+                           nav: false
+                         },
+                         600:{
+                         items:2,
+                        nav: false
+                        },
+                       1000:{
+                       items:3,
+                       nav: false
+                         }
+                   }
+                     });
+             </script>
+            </body>
+            </html>
